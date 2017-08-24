@@ -1,0 +1,33 @@
+{
+    "name": "mercury",
+    "displayName": "Mercury",
+    "description": "Mercury language integration for VSCode",
+    "version": "0.0.1",
+    "publisher": "brendanzab",
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/brendanzab/vscode-mercury.git"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mercury",
+                "aliases": ["Mercury", "mercury"],
+                "extensions": [".m", ".moo"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mercury",
+                "scopeName": "source.mercury",
+                "path": "./syntaxes/mercury.tmLanguage"
+            }
+        ]
+    }
+}
