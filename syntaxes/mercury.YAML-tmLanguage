@@ -146,4 +146,4 @@ repository:
 
   number:
     name: constant.numeric.source.mercury
-    match: \b(0(?!['])[0-7]*|0['].|[1-9][0-9]*|\.[0-9]+([eE][0-9]+)?|0[xX][0-9a-fA-F]+|0[bB][01]+)\b
+    match: \b0['].|\b(0(?!['])[0-7]*|[1-9][0-9]*|\.[0-9]+([eE][0-9]+)?|0[xX][0-9a-fA-F]+|0[bB][01]+)\b
